@@ -43,8 +43,8 @@ const overrideProperties = Object.assign(
     }
 );
 
-const topLevelConfigProperties = Object.assign(
-    {},
+const topLevelConfigProperties = Object.assign({
+    },
     baseConfigProperties,
     {
         extends: { type: ["string", "array"] },
